@@ -8,15 +8,15 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-export default class HelloWorld extends Vue {
+export default class HelloKitty extends Vue {
   @Prop() private msg!: string;
 
   created() {
-    console.log('HelloWorld created');
+    console.log('HelloKitty created');
   }
 
   mounted() {
-    console.log('HelloWorld mounted');
+    console.log('HelloKitty mounted');
   }
 }
 </script>
